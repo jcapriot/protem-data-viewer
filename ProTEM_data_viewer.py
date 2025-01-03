@@ -465,7 +465,7 @@ class Window(Frame):
             str(s.txSides[0])+","+str(s.txSides[1])+"\n")
         f.write("\n")
 
-        f.write("Gate #\tTime(us)\tRecieved Voltage(nv/m^2/A)")
+        f.write("Gate #\tTime(μs)\tReceived Voltage(nV/m^2/A)")
         if(foc[0]=='$'):
           f.write("\tstd")
         f.write("\n")
